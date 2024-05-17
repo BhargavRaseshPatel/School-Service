@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Principal_Teacher_Fragment.PrincipalTeacher5">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_gravity="center"
+        android:layout_marginVertical="50dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/linearLayout8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/light_blue"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <Button
+                    android:id="@+id/save_changes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="52dp"
+                    android:layout_margin="20dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/dark_blue"
+                    android:onClick="saveData"
+                    android:text="@string/save_changes"
+                    android:textAllCaps="false"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout6"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/subject1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ellipsize="end"
+                        android:text="@string/subject_name"
+                        android:textColor="@color/blue"
+                        android:textSize="14sp" />
+
+                    <EditText
+                        android:id="@+id/teacherEmail1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="50"
+                        android:autofillHints=""
+                        android:background="@drawable/profile_textview"
+                        android:ems="10"
+                        android:inputType="textEmailAddress"
+                        android:minHeight="32dp"
+                        android:paddingHorizontal="5dp"
+                        android:textSize="14sp"
+                        android:visibility="visible"
+                        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+                    <ImageButton
+                        android:id="@+id/verify1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:layout_marginHorizontal="16dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/white"
+                        android:src="@drawable/ic_baseline_close_24"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                    <RadioButton
+                        android:id="@+id/classTeaccher1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:checked="false"
+                        android:enabled="false"
+                        android:filterTouchesWhenObscured="false"
+                        android:visibility="invisible"
+                        tools:ignore="DuplicateSpeakableTextCheck" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/subject2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ellipsize="end"
+                        android:text="@string/subject_name"
+                        android:textColor="@color/blue"
+                        android:textSize="14sp" />
+
+                    <EditText
+                        android:id="@+id/teacherEmail2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="50"
+                        android:autofillHints=""
+                        android:background="@drawable/profile_textview"
+                        android:ems="10"
+                        android:inputType="textEmailAddress"
+                        android:minHeight="32dp"
+                        android:paddingHorizontal="5dp"
+                        android:textSize="14sp"
+                        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+                    <ImageButton
+                        android:id="@+id/verify2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:layout_marginHorizontal="16dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/white"
+                        android:src="@drawable/ic_baseline_close_24"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                    <RadioButton
+                        android:id="@+id/classTeaccher2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:checked="false"
+                        android:enabled="false"
+                        android:visibility="invisible" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/subject3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ellipsize="end"
+                        android:text="@string/subject_name"
+                        android:textColor="@color/blue"
+                        android:textSize="14sp" />
+
+                    <EditText
+                        android:id="@+id/teacherEmail3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="50"
+                        android:autofillHints=""
+                        android:background="@drawable/profile_textview"
+                        android:ems="10"
+                        android:inputType="textEmailAddress"
+                        android:minHeight="32dp"
+                        android:paddingHorizontal="5dp"
+                        android:textSize="14sp"
+                        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+                    <ImageButton
+                        android:id="@+id/verify3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:layout_marginHorizontal="16dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/white"
+                        android:src="@drawable/ic_baseline_close_24"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                    <RadioButton
+                        android:id="@+id/classTeaccher3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:checked="false"
+                        android:enabled="false"
+                        android:visibility="invisible" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/subject4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ellipsize="end"
+                        android:text="@string/subject_name"
+                        android:textColor="@color/blue"
+                        android:textSize="14sp" />
+
+                    <EditText
+                        android:id="@+id/teacherEmail4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="50"
+                        android:autofillHints=""
+                        android:background="@drawable/profile_textview"
+                        android:ems="10"
+                        android:inputType="textEmailAddress"
+                        android:minHeight="32dp"
+                        android:paddingHorizontal="5dp"
+                        android:textSize="14sp"
+                        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+                    <ImageButton
+                        android:id="@+id/verify4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:layout_marginHorizontal="16dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/white"
+                        android:src="@drawable/ic_baseline_close_24"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                    <RadioButton
+                        android:id="@+id/classTeaccher4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:checked="false"
+                        android:enabled="false"
+                        android:visibility="invisible" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/subject5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ellipsize="end"
+                        android:text="@string/subject_name"
+                        android:textColor="@color/blue"
+                        android:textSize="14sp" />
+
+                    <EditText
+                        android:id="@+id/teacherEmail5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="50"
+                        android:autofillHints=""
+                        android:background="@drawable/profile_textview"
+                        android:ems="10"
+                        android:inputType="textEmailAddress"
+                        android:minHeight="32dp"
+                        android:paddingHorizontal="5dp"
+                        android:textSize="14sp"
+                        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+                    <ImageButton
+                        android:id="@+id/verify5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:layout_marginHorizontal="16dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/white"
+                        android:src="@drawable/ic_baseline_close_24"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                    <RadioButton
+                        android:id="@+id/classTeaccher5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:checked="false"
+                        android:enabled="false"
+                        android:visibility="invisible" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Switch
+                android:id="@+id/switch2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:text="Add Class Teacher"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toTopOf="@+id/linearLayout8"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout6" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

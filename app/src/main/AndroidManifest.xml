@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.new_scs">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/school"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@drawable/school"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.New_SCS">
+        <activity
+            android:name=".TeacherWithoutAdded"
+            android:exported="false" />
+        <activity
+            android:name=".FullScreenImage"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".WithoutClassTeacher.WCTMainPage"
+            android:exported="false" />
+        <activity
+            android:name=".Teacher.TeacherAllHomework"
+            android:exported="false" />
+        <activity
+            android:name=".Teacher.TeacherNewHomework"
+            android:exported="false"
+            android:parentActivityName=".Teacher.TeacherMainPage" />
+        <activity
+            android:name=".Principal.PrincipalTeacherDetails"
+            android:exported="false" />
+        <activity android:name=".Teacher.TeacherAddTimeTable" />
+        <activity android:name=".Teacher.TeacherTimetable" />
+        <activity android:name=".Teacher.TeacherAddStudent" />
+        <activity android:name=".Principal.PrincipalMainPage" />
+        <activity android:name=".Profile" />
+        <activity android:name=".Principal.Calendar" />
+        <activity android:name=".Principal.Add_Calendar" />
+        <activity android:name=".Principal.PrincipalSchoolName" />
+        <activity android:name=".Principal.PrincipalAddClass" />
+        <activity android:name=".Parents.Parents" />
+        <activity android:name=".Teacher.TeacherMainPage" />
+        <activity android:name=".OTP_Verification" />
+        <activity android:name=".LogIn" />
+        <activity android:name=".SignUp">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

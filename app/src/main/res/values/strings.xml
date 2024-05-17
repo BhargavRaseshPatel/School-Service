@@ -1,0 +1,148 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">New_SCS</string>
+
+    <string-array name="class_no">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+    <string-array name="section">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+    </string-array>
+
+    <string-array name="subject_no">
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sub1">1st Subject Name</string>
+    <string name="sub2">2nd Subject Name</string>
+    <string name="sub3">3rd Subject Name</string>
+    <string name="sub4">4th Subject Name</string>
+    <string name="sub5">5th Subject Name</string>
+    <string name="sub6">6th Subject Name</string>
+    <string name="add_subjects">Add Subjects</string>
+    <string name="change_password">Change Password</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="new_password">New Password</string>
+    <string name="old_password">Old Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="yourname">Name</string>
+    <string name="classname">Class</string>
+    <string name="upload">Upload</string>
+    <string name="select_image">Select Image</string>
+    <string name="section">Section</string>
+    <string name="time_table">Time-Table</string>
+    <string name="time_table_name">Time-Table Name</string>
+    <string name="upload_time_table">Upload Time-Table</string>
+    <string name="enter_student_name">Enter student name</string>
+    <string name="enter_father_mobile_no">Enter father mobile no.</string>
+    <string name="add_student">Add Student</string>
+    <string name="enter_date_of_birth">Enter Date of Birth</string>
+    <string name="add_new_student">Add new student</string>
+    <string name="create_an_new_account">Create an new account</string>
+    <string name="teacher">Teacher</string>
+    <string name="principal">Principal</string>
+    <string name="category">Category :</string>
+    <string name="please_enter_mobile_verification_number">Please enter mobile verification number</string>
+    <string name="full_name">Full name</string>
+    <string name="email_address">Email address</string>
+    <string name="password">Password</string>
+    <string name="already_have_an_account">Already have an account.</string>
+    <string name="school_information">School Information</string>
+    <string name="continueword">Continue</string>
+    <string name="please_enter_school_details">Please enter school details.</string>
+    <string name="school_address">School Address</string>
+    <string name="pincode">Pincode</string>
+    <string name="add_new_class">Add new class</string>
+    <string name="four_subject">Four Subject</string>
+    <string name="five_subject">Five Subject</string>
+    <string name="six_subject">Six Subject</string>
+    <string name="otp_verification">OTP verification</string>
+    <string name="_4">4</string>
+    <string name="_3">3</string>
+    <string name="_2">2</string>
+    <string name="please_enter_the_otp_sent_on">Please enter the OTP sent on</string>
+    <string name="_1">1</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="don_t_receive_otp">Don\'t receive otp.</string>
+    <string name="resend_otp_again">RESEND OTP AGAIN</string>
+    <string name="verify">Verify</string>
+    <string name="if_you_don_t_have_log_in_account_please_create_account_by_click_on_below_create_new_account">If you don\'t have log in account please create account by click on below Create new account.</string>
+    <string name="please_enter_email_and_password_to_log_in">Please enter email and password to log in.</string>
+    <string name="log_in">Log In</string>
+    <string name="don_t_have_an_account">Don\'t have an account.</string>
+    <string name="create_new">Create new</string>
+    <string name="add_month_photo">Add Month Photo</string>
+    <string name="enter_month_name">Enter month name</string>
+    <string name="upload_calendar">Upload Calendar</string>
+    <string name="principal_teacher">Principal / Teacher</string>
+    <string name="profile">Profile</string>
+    <string name="add_class">Add Class</string>
+    <string name="calendar">Calendar</string>
+    <string name="school_name">School Name</string>
+    <string name="class_and_section">Class and Section</string>
+    <string name="student_name">Student Name</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="textview">Textview</string>
+    <string name="subject_name">Subject Name</string>
+    <string name="teacher_email_id">Teacher Email-ID</string>
+    <string name="verify_email_id">Verify Email-ID</string>
+    <string name="class_teacher">Class Teacher</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="subject_name_homework">Subject : Name</string>
+    <string name="date_26_oct_2020">Date : 26 Oct 2020</string>
+    <string name="description">Description</string>
+    <string name="add_homework">Add Homework</string>
+    <string name="today_s_given_homework">Today\'s given homework</string>
+    <string name="show_all_given_homework">Show All Given Homework</string>
+    <string name="no_time_table">No Time-Table</string>
+    <string name="todo">TODO</string>
+    <string name="no_homework">No HomeWork</string>
+    <string name="subject">Subject</string>
+    <string name="homework_description">Homework Description...</string>
+    <string name="clear">Clear</string>
+    <string name="add">Add</string>
+    <string name="update_details">Update Details</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="children_name">Children Name</string>
+    <string name="date_of_birth">Date Of Birth</string>
+    <string name="yyyy_mm_dd">YYYY/MM/DD</string>
+    <string name="parents_mobile_number">Parents Mobile Number</string>
+    <string name="remove">Remove</string>
+    <string name="update">Update</string>
+    <string name="name">Name</string>
+
+    <string-array name="months">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+</resources>

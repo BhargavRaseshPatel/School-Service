@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/calendar"
+        android:icon="@drawable/ic_calendar_menu"
+        android:title="Calendar"/>
+    <item android:id="@+id/attendance"
+        android:icon="@drawable/ic_attendance_menu"
+        android:title="Attendance"/>
+    <item android:id="@+id/homework"
+        android:icon="@drawable/ic_homework_menu"
+        android:title="Homework"/>
+    <item android:id="@+id/time_table"
+        android:icon="@drawable/ic_table_table"
+        android:title="Time-Table"/>
+    <item android:id="@+id/profile"
+        android:icon="@drawable/ic_profile_meanu"
+        android:title="Profile"/>
+</menu>
